@@ -1,0 +1,94 @@
+.new-job {
+    height: calc(100vh - 30px);
+    width: calc(100vw - 30px);
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-job-wrapper {
+    width: 47%;
+    min-width: 628px;
+    background-color: white;
+    height: 93%;
+    border-radius: 7px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-y: scroll;
+}
+
+.new-job-topbar {
+    background-color: rgb(22, 60, 95);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.new-job-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.form-row > label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-row > input {
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    outline: none;
+}
+
+.form-row > textarea {
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    border: 2px solid #ddd;
+}
+
+.form-row > select {
+    padding: 8px;
+    border-radius: 3px;
+    border: 2px solid #ddd;
+    outline: none;
+}
+
+.save-job-btn {
+    padding: 10px;
+    background-color: rgb(22, 60, 95);
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.back {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.back span {
+    color: rgb(22, 60, 95);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}

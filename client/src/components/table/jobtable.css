@@ -1,0 +1,46 @@
+.table-head {
+    background-color: rgb(22, 60, 95);
+}
+
+.row-head {
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.actions {
+    display: flex !important;
+    gap: 7px !important;
+    height: 74.03px !important;
+    border: none !important;
+    align-items: flex-end !important;
+
+}
+
+.actions button {
+    /* height: 50% !important; */
+    height: max-content !important;
+    padding: 5px 8px !important;
+    cursor: pointer;
+
+}
+
+.actions button:nth-child(3) {
+    border: none;
+    background-color: rgb(22, 60, 95);
+    color: white;
+    border-radius: 5px;
+}
+
+.actions button:nth-child(2) {
+    border: none;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-radius: 5px;
+}
+
+.actions button:nth-child(1) {
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
